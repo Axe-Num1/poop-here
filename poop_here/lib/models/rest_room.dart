@@ -1,3 +1,6 @@
+import 'rest_room_info.dart';
+import 'review.dart';
+
 class RestRoom {
   int _id;
   String _address;
