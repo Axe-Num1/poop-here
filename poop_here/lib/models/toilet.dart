@@ -20,8 +20,6 @@ class Toilet {
   set type(ToiletType value) {
     _type = value;
   }
-
-
 }
 
 enum ToiletType {
