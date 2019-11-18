@@ -1,3 +1,5 @@
+import 'package:poop_here/models/review.dart';
+
 class RestRoom{
   int _id;
   String _address;
