@@ -1,3 +1,7 @@
+import 'toilet.dart';
+import 'fee.dart';
+import 'review.dart';
+
 class RestRoomInfo
 {
   List<Toilet> _toilets;
