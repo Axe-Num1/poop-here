@@ -2,6 +2,7 @@ import 'toilet.dart';
 import 'fee.dart';
 import 'review.dart';
 
+/*asdf*/
 class RestRoomInfo
 {
   List<Toilet> _toilets;
