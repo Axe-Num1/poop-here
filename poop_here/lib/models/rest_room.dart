@@ -1,6 +1,10 @@
 import 'rest_room_info.dart';
 import 'review.dart';
 
+/**
+ * @author 영은
+ */
+
 class RestRoom {
   int _id;
   String _address;
