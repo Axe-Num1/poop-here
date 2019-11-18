@@ -6,13 +6,19 @@ class RestRoom {
   String _address;
   String _name;
   List<Review> _review;
-  double _starts;
+  double _stars;
   bool _isPublic;
   List<RestRoomInfo> _rooms;
 
 
-  RestRoom.name(this._id, this._address, this._name, this._review, this._starts,
-      this._isPublic, this._rooms);
+  RestRoom({id, address, name, review, stars, isPublic, rooms})
+    : _id = id,
+      _name = name,
+      _address = address,
+      _review = review,
+      _stars = stars,
+      _isPublic = isPublic,
+      _rooms = rooms;
 
 
   int get id => _id;
@@ -35,10 +41,10 @@ class RestRoom {
     _isPublic = value;
   }
 
-  double get starts => _starts;
+  double get stars => _stars;
 
-  set starts(double value) {
-    _starts = value;
+  set stars(double value) {
+    _stars = value;
   }
 
   List<Review> get review => _review;
